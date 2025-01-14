@@ -1,0 +1,21 @@
+TabWidth: 2
+IndentWidth: 4
+# UseTab: ForIndentation
+# UseTab: Always
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: true
+  AfterClass: true
+  AfterFunction: true
+  AfterEnum: true
+  AfterUnion: true
+  AfterStruct: true
+  AfterNamespace: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeWhile: true
+  BeforeLambdaBody: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
