@@ -1,0 +1,29 @@
+return {
+	-- "akinsho/bufferline.nvim",
+	-- dependencies = { "nvim-tree/nvim-web-devicons" },
+	-- version = "*",
+	-- opts = {
+	-- 	options = {
+	-- 		-- Disable tabs mode to hide the tabs above
+	-- 		mode = "buffers", -- Use buffers mode instead of tabs
+	-- 		show_buffer_close_icons = false, -- Optional: Hide close icons
+	-- 		show_close_icon = false, -- Optional: Hide the close icon
+	-- 		always_show_bufferline = false, -- Hide the bufferline when only one buffer is open
+	-- 	},
+	-- },
+	-- config = function(_, opts)
+	-- 	require("bufferline").setup(opts)
+	--
+	-- 	-- Add keymaps for buffer navigation
+	-- 	vim.keymap.set("n", "<leader>bp", ":BufferLineCyclePrev<CR>", { desc = "Previous Buffer" })
+	-- 	vim.keymap.set("n", "<leader>bn", ":BufferLineCycleNext<CR>", { desc = "Next Buffer" })
+	-- 	vim.keymap.set("n", "<leader>bl", function()
+	-- 		local bufnr = vim.fn.bufnr("#") -- Get the alternate buffer number
+	-- 		if bufnr > 0 then
+	-- 			vim.cmd("buffer " .. bufnr) -- Switch to the alternate buffer
+	-- 		else
+	-- 			print("No alternate buffer")
+	-- 		end
+	-- 	end, { desc = "Last Accessed Buffer" })
+	-- end,
+}

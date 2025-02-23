@@ -1,5 +1,3 @@
 require("krish.core.options")
 require("krish.core.keymaps")
-
--- TODO:
-
+require("krish.core.compile_run")
